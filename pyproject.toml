@@ -11,6 +11,11 @@ jupyter = "^1.1.1"
 youtube-transcript-api = "^0.6.3"
 nltk = "^3.9.1"
 scikit-learn = "^1.6.0"
+pyqt5 = "^5.15.11"
+pillow = "^11.0.0"
+transformers = "^4.47.1"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
 
 
 [tool.poetry.group.dev.dependencies]
