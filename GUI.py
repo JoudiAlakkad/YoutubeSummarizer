@@ -1,6 +1,6 @@
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QVBoxLayout, QLineEdit, QTextEdit
-from summarize import summarize
+from summarize import summarise
 
 class MyWindow(QWidget):
     def __init__(self):
@@ -35,7 +35,7 @@ class MyWindow(QWidget):
             if youtube_url:
                 try:
                     # Call the summarize function and get the summary
-                    summary = summarize(youtube_url)
+                    summary = summarise(youtube_url)
                     self.summary_text.setText(summary)  # Display the summary in the label
                 except Exception as e:
                     self.summary_text.setText(f"Error occurred: {e}")  # Display error if any

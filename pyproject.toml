@@ -16,6 +16,8 @@ pillow = "^11.0.0"
 transformers = "^4.47.1"
 torch = "^2.5.1"
 torchvision = "^0.20.1"
+ollama = "^0.4.5"
+langchain-community = "^0.3.13"
 
 
 [tool.poetry.group.dev.dependencies]
